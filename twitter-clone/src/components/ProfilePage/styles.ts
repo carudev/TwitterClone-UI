@@ -30,30 +30,20 @@ export const Banner = styled.div`
 
 
 export const Avatar = styled.div`
-/*     width: max(45px, min(135px, 22vw));
-    height: max(45px, min(135px, 22vw));
 
-    
-    background: var(--gray);
-    border-radius:50%;
-
-    position: absolute;
-    bottom: max(-60px, -10vw);
-    left: 15px; */
-    width: max(45px, min(135px, 22vw));
-    height: max(45px, min(135px, 22vw));
-    flex-shrink: 0;
-    
-    bottom: max(-60px, -10vw);
-    
-    position: absolute;
-
-    left:15px;
 
     > img {
-    border: 3.75px solid var(--primary);
-    border-radius:50%;
 
+    border: 3.75px solid var(--primary);
+    width: max(45px, min(135px, 22vw));
+    height: max(45px, min(135px, 22vw));
+
+    background: var(--gray);
+    border-radius:50%;
+    position: absolute;
+
+    bottom: max(-60px, -10vw);
+    left: 15px; 
     }
 `;
 
